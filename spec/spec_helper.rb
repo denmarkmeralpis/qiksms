@@ -1,5 +1,5 @@
-require "bundler/setup"
-require "qiksms"
+require 'bundler/setup'
+require 'qiksms'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
@@ -10,5 +10,12 @@ RSpec.configure do |config|
 
   config.expect_with :rspec do |c|
     c.syntax = :expect
+  end
+
+  config.before(:all) do
+    Qiksms.configure do |config|
+      config.api_secret = ENV['QIKSMS_API_SECRET']
+      config.api_key = ENV['QIKSMS_API_KEY']
+    end
   end
 end
