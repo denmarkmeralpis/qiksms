@@ -7,7 +7,7 @@ module Qiksms
   class Client
     attr_accessor :api_key, :api_secret, :recipient, :message
 
-    MSG_PARAMS = {}.freeze
+    MSG_PARAMS = {}
     HOST = 'https://app.qiksms.com/api/send'.freeze
 
     def initialize(options={})

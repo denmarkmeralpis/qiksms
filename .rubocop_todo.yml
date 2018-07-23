@@ -190,7 +190,7 @@ Style/HashSyntax:
 # Cop supports --auto-correct.
 Style/MutableConstant:
   Exclude:
-    # - 'lib/qiksms/client.rb'
+    - 'lib/qiksms/client.rb'
     # - 'lib/qiksms/version.rb'
 
 # Offense count: 3
