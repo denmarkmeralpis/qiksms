@@ -51,6 +51,7 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     arel (9.0.0)
     builder (3.2.3)
+    byebug (10.0.2)
     concurrent-ruby (1.0.5)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
@@ -148,6 +149,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
+  byebug
   dotenv (~> 2.5)
   generator_spec
   qiksms!
