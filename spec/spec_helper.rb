@@ -1,6 +1,11 @@
 require 'bundler/setup'
 require 'qiksms'
 require 'byebug'
+require 'simplecov'
+require 'simplecov-console'
+
+SimpleCov.formatter = SimpleCov.formatter = SimpleCov::Formatter::Console
+SimpleCov.start
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

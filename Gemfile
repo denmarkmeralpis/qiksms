@@ -8,4 +8,6 @@ gemspec
 group :test do
    gem 'byebug'
    gem 'generator_spec'
+   gem 'simplecov'
+   gem 'simplecov-console'
 end
