@@ -1,9 +1,9 @@
-RSpec.describe Qiksms do
-  it "has a version number" do
-    expect(Qiksms::VERSION).not_to be nil
-  end
+require 'spec_helper'
 
-  it "does something useful" do
-    expect(false).to eq(true)
+RSpec.describe Qiksms do
+  context 'gem version' do
+    it "has a version number" do
+      expect(Qiksms::VERSION).not_to be nil
+    end
   end
 end
