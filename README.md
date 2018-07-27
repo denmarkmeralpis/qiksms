@@ -42,7 +42,7 @@ You can also change the `sender_id` and `char_type` on the fly:
 Qiksms::Client.send(recipient: '917XXXXXXX', message: 'Your awesome message!', char_type: '8', sender_id: 'custom')
 ```
 
-NOTE: Changing of `sender_id` requires approval/subscription from https://wwww.qiksms.com
+NOTE: Changing of `sender_id` requires approval/subscription from https://www.qiksms.com
 
 ## Contributing
 
