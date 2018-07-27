@@ -51,3 +51,9 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/denmar
 ## Code of Conduct
 
 Everyone interacting in the Qiksms project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/denmarkmeralpis/qiksms/blob/master/CODE_OF_CONDUCT.md).
+
+## Donation
+
+The reward of goodness is nothing but goodness. 
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=nujiandenmarkmeralpis@gmail.com&lc=US&item_name=For+Living&no_note=0&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted)
