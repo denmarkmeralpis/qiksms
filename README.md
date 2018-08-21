@@ -21,7 +21,7 @@ Or install it yourself as:
 
 Then generate initializer:
 
-    $ rails g qiksms:install
+    $ rails g qiksms:install initializer
     
 then edit the file in `config/initializer/qiksms.rb` and supply the necessary details.
 
